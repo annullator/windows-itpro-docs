@@ -29,9 +29,15 @@ This area lets you specify the location of your production and pre-production en
 
    The **Settings** page appears.
 
-2. In the **Environment settings** area of the page, provide the info for your **Pre-production environment**, your **Production environment**, your **Attachments location**, your **Settings location**, and your **Website domain for email notifications**.
+2. In the **Environment settings** area of the page, provide the info for the following:
 
-3. Click **Credentials** to add the appropriate domain, user name, and password for each location, and then click **OK**.
+   - **Pre-production environment** - Input a XML filename and location for Pre-Production. 
+   - **Production environment** - Input a XML filename and location for Production. 
+   - **Attachments location** - File path for attachments to be uploaded to. 
+   - **Settings location** - File path location of the scripts and reg files to attach to the request email for requesters to test.
+   - **Website domain for email notifications** - The URL of the EMIE Web Portal for email notifications.
+
+3. Click **Credentials** to add the appropriate domain, user name, and password for each location, and then click **OK**. The **Credentials** under **Website domain for email notifications** is for the email address that the website sends from.
 
 ## Use the Group and role settings area
 After you set up your email credentials, you'll be able to add or edit your Group info, along with picking which roles must be Approvers for the group.
